@@ -26,7 +26,6 @@ namespace wp_ChatUp_
         private string autoscroll;
         private bool sendenter = false;
         WebView wv = new WebView();
-        MessageDialog messageDialog;
 
         public MainPage()
         {

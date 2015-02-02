@@ -22,7 +22,14 @@
             <PivotItem x:Name="pvt_main" Header="Main">
                 <Grid>
                     <TextBlock Text="Username:" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="25" Margin="5"/>
-                    <ComboBox x:Name="cb_languages" VerticalAlignment="Top" Margin="5,87,5,0"/>
+                    <ComboBox x:Name="cb_languages" VerticalAlignment="Top" Margin="5,87,5,0">
+                        <ComboBoxItem Content="Dutch"/>
+                        <ComboBoxItem Content="English"/>
+                        <ComboBoxItem Content="French"/>
+                        <ComboBoxItem Content="Spanish"/>
+                        <ComboBoxItem Content="Italian"/>
+                        <ComboBoxItem Content="Indian"/>
+                    </ComboBox>
                     <TextBox x:Name="tb_uname" Margin="5,45,5,5"/>
                     <Button x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,223,5,0" Click="btn_setun_Click"/>
                 </Grid>
