@@ -185,6 +185,7 @@ namespace wp_ChatUp_
 
         private void abtn_send_Click(object sender, RoutedEventArgs e)
         {
+            // Bericht versturen
             sendmsg();
         }
     }
