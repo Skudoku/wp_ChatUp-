@@ -21,11 +21,11 @@ namespace wp_ChatUp_
 
         }
 
-        public void Send(string username, string messagetosend, Room room)
+        public void Send(string username, string messagetosend)
         {
             this.Username = username;
             this.MessageToSend = messagetosend;
-            this.Room = room;
+            //this.Room = room;
 
             WebView wv = new WebView();
             wv.Navigate(new Uri("http://chatup.nl/test/message.php?message=" + WebUtility.UrlEncode(messagetosend) + "&uname=" + WebUtility.UrlEncode(username)));

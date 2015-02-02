@@ -42,8 +42,8 @@ namespace wp_ChatUp_
 
             // Instellingen laden
             getsettings();
-            testroom1 = new Room("Testroom1", cb_languages.SelectedItem.ToString());
-            testroom2 = new Room("Testroom2", cb_languages.SelectedItem.ToString());
+            //testroom1 = new Room("Testroom1", cb_languages.SelectedItem.ToString());
+            //testroom2 = new Room("Testroom2", cb_languages.SelectedItem.ToString());
         }
         
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -191,7 +191,7 @@ namespace wp_ChatUp_
         {
             // Bericht versturen
             //sendmsg();
-            message.Send(un, tb_message.Text, testroom1);
+            message.Send(un, tb_message.Text);
         }
 
         private void sld_fontsize_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
