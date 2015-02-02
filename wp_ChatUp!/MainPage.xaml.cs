@@ -63,12 +63,6 @@ namespace wp_ChatUp_
             }
         }
 
-        private void btn_send_Click(object sender, RoutedEventArgs e)
-        {
-            // Bericht versturen
-            sendmsg();
-        }
-
         private void tb_message_KeyDown(object sender, KeyRoutedEventArgs e)
         {
             // Kijken of er op de enter toets is gedrukt
@@ -187,6 +181,11 @@ namespace wp_ChatUp_
                 // Instellingen opnieuw inladen
                 getsettings();
             }
+        }
+
+        private void abtn_send_Click(object sender, RoutedEventArgs e)
+        {
+            sendmsg();
         }
     }
 }

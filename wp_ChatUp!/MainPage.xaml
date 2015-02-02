@@ -12,6 +12,7 @@
         <CommandBar x:Name="cb_chat">
             <CommandBar.PrimaryCommands>
                 <AppBarButton x:Name="abtn_refresh" Icon="Refresh" Label="Refresh" Click="abtn_refresh_Click"/>
+                <AppBarButton x:Name="abtn_send" Icon="Send" Label="Send" Click="abtn_send_Click"/>
             </CommandBar.PrimaryCommands>
         </CommandBar>
     </Page.BottomAppBar>
@@ -28,9 +29,8 @@
             <PivotItem x:Name="pvt_chat" Header="Chat">
                 <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled">
                     <Grid>
-                        <WebView x:Name="wv_chat" Margin="5,5,0,125"/>
-                        <TextBox x:Name="tb_message" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Bottom" Margin="5,5,5,65" KeyDown="tb_message_KeyDown"/>
-                        <Button x:Name="btn_send" Content="Send Message" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="5" Click="btn_send_Click"/>
+                        <WebView x:Name="wv_chat" Margin="5,5,0,54"/>
+                        <TextBox x:Name="tb_message" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Bottom" Margin="5,0,0,10" KeyDown="tb_message_KeyDown"/>
                     </Grid>
                 </ScrollViewer>
             </PivotItem>
