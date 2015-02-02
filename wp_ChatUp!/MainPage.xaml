@@ -22,8 +22,9 @@
             <PivotItem x:Name="pvt_main" Header="Main">
                 <Grid>
                     <TextBlock Text="Username:" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="25" Margin="5"/>
+                    <ComboBox x:Name="cb_languages" VerticalAlignment="Top" Margin="5,87,5,0"/>
                     <TextBox x:Name="tb_uname" Margin="5,45,5,5"/>
-                    <Button x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,95,5,5" Click="btn_setun_Click"/>
+                    <Button x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,223,5,0" Click="btn_setun_Click"/>
                 </Grid>
             </PivotItem>
             <PivotItem x:Name="pvt_chat" Header="Chat">
@@ -41,7 +42,7 @@
 
                     <!-- Bericht met enter versturen -->
                     <ToggleSwitch x:Name="tbtn_senderenter" VerticalAlignment="Top" OnContent="Enabled" OffContent="Disabled" Margin="5,65,5,5">Send with Enter</ToggleSwitch>
-                    <Slider x:Name="sld_fontsize" Header="Fontsize" VerticalAlignment="Top" Margin="5,135,10,0" ValueChanged="sld_fontsize_ValueChanged" Maximum="3" Minimum="1" Value="1" />
+                    <Slider x:Name="sld_fontsize" Header="Fontsize" VerticalAlignment="Top" Margin="5,135,10,0" ValueChanged="sld_fontsize_ValueChanged" Maximum="3" Minimum="1" Value="2" />
                 </Grid>
             </PivotItem>
             <PivotItem Header="About">
