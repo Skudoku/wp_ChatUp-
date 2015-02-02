@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wp_ChatUp!", "wp_ChatUp!\wp_ChatUp!.csproj", "{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}"
 EndProject
@@ -15,9 +15,9 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}.Debug|Any CPU.Build.0 = Debug|x86
+		{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}.Debug|ARM.ActiveCfg = Debug|ARM
 		{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}.Debug|ARM.Build.0 = Debug|ARM
 		{A0A9A9FA-80A1-41F0-A22C-16E629D1EFD0}.Debug|ARM.Deploy.0 = Debug|ARM

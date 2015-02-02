@@ -7,10 +7,12 @@ using Windows.Web.Http;
 using System.Net;
 using Windows.UI.Xaml.Controls;
 
+
 namespace wp_ChatUp_
 {
     public class Message
     {
+ 
         public string Username { get; private set; }
         public string MessageToSend { get; private set; }
 
@@ -25,6 +27,7 @@ namespace wp_ChatUp_
         {
             this.Username = username;
             this.MessageToSend = messagetosend;
+            
             //this.Room = room;
 
             WebView wv = new WebView();
