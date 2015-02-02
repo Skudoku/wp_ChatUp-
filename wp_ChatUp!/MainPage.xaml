@@ -11,8 +11,14 @@
     <Page.BottomAppBar>
         <CommandBar x:Name="cb_chat">
             <CommandBar.PrimaryCommands>
+                <!-- Main pivot -->
+                <AppBarButton x:Name="abtn_setun" Icon="go" Label="Start" Click="btn_setun_Click"/>
+                
+                <!-- Chat pivot -->
                 <AppBarButton x:Name="abtn_refresh" Icon="Refresh" Label="Refresh" Click="abtn_refresh_Click"/>
                 <AppBarButton x:Name="abtn_send" Icon="Send" Label="Send" Click="abtn_send_Click"/>
+                
+                <!-- Room pivot -->
                 <AppBarButton x:Name="abtn_addroom" Icon="Add" Label="Add"/>
             </CommandBar.PrimaryCommands>
         </CommandBar>
@@ -24,7 +30,6 @@
                 <Grid>
                     <TextBlock Text="Username:" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="25" Margin="5"/>
                     <TextBox x:Name="tb_uname" Margin="5,45,5,5"/>
-                    <Button x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,223,5,0" Click="btn_setun_Click"/>
                 </Grid>
             </PivotItem>
             <PivotItem x:Name="pvt_rooms" Header="Rooms">
