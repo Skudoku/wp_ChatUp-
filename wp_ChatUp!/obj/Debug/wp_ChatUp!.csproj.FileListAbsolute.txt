@@ -1,0 +1,130 @@
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\App.xbf
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\MainPage.xbf
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.xr.xml
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.exe
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.pdb
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\resources.pri
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\AppxManifest.xml
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.build.appxrecipe
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.g.i.cs
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.g.cs
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.g.i.cs
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.g.cs
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\XamlTypeInfo.g.cs
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\XamlSaveStateFile.xml
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.xaml
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.xaml
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.xbf
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.xbf
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.exe
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.pdb
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\priconfig.xml
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\priconfig.xml.intermediate
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\layout.resfiles
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\layout.resfiles.intermediate
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\resources.resfiles
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\resources.resfiles.intermediate
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\pri.resfiles
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\pri.resfiles.intermediate
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\qualifiers.txt
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\qualifiers.txt.intermediate
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\ProjectArchitectures.txt
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\MySql.Data.RT.dll
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.csprojResolveAssemblyReference.cache
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\en-US\MySql.Data.RT.Properties.Resources.resw
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.csproj.GenerateResource.Cache
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT.pri
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\qualifiers.txt
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\layout.resfiles
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\layout.resfiles.intermediate
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\Resources.resfiles
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\Resources.resfiles.intermediate
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\pri.resfiles
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\pri.resfiles.intermediate
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\priconfig.xml
+E:\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\priconfig.xml.intermediate
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\App.xbf
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\MainPage.xbf
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.xr.xml
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.exe
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.pdb
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\resources.pri
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\AppxManifest.xml
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.build.appxrecipe
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.csprojResolveAssemblyReference.cache
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.g.i.cs
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.g.cs
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.g.i.cs
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.g.cs
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\XamlTypeInfo.g.cs
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.xaml
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.xaml
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.xbf
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.xbf
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\XamlSaveStateFile.xml
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.exe
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.pdb
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\en-US\MySql.Data.RT.Properties.Resources.resw
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.csproj.GenerateResource.Cache
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT.pri
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\qualifiers.txt
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\priconfig.xml
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\priconfig.xml.intermediate
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\layout.resfiles
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\layout.resfiles.intermediate
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\resources.resfiles
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\resources.resfiles.intermediate
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\pri.resfiles
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\pri.resfiles.intermediate
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\qualifiers.txt
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\qualifiers.txt.intermediate
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\obj\Debug\ProjectArchitectures.txt
+F:\bartk_000\bk-cloud\Prive\Eigen software\Windows phone apps\wp_ChatUp!\wp_ChatUp!\bin\Debug\MySql.Data.RT.dll
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\bin\Debug\App.xbf
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\bin\Debug\MainPage.xbf
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.xr.xml
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.exe
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.pdb
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\bin\Debug\resources.pri
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\bin\Debug\AppxManifest.xml
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\bin\Debug\wp_ChatUp!.build.appxrecipe
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\bin\Debug\MySql.Data.RT.dll
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.csprojResolveAssemblyReference.cache
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.g.i.cs
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.g.cs
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.g.i.cs
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.g.cs
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.xaml
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.xaml
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\App.xbf
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MainPage.xbf
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.exe
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.pdb
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\en-US\MySql.Data.RT.Properties.Resources.resw
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\wp_ChatUp!.csproj.GenerateResource.Cache
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\layout.resfiles
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\layout.resfiles.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\Resources.resfiles
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\Resources.resfiles.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\pri.resfiles
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\pri.resfiles.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\priconfig.xml
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\priconfig.xml.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT.pri
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\qualifiers.txt
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\priconfig.xml
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\priconfig.xml.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\layout.resfiles
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\layout.resfiles.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\resources.resfiles
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\resources.resfiles.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\pri.resfiles
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\pri.resfiles.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\qualifiers.txt
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\ProjectArchitectures.txt

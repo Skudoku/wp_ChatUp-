@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="wp_ChatUp_.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:wp_ChatUp_"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.BottomAppBar>
+        <CommandBar x:Name="cb_chat">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton x:Name="abtn_refresh" Icon="Refresh" Label="Refresh" Click="abtn_refresh_Click"/>
+            </CommandBar.PrimaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Pivot x:Name="pvt" Title="ChatUp!">
+            <PivotItem x:Name="pvt_main" Header="Main">
+                <Grid>
+                    <TextBlock Text="Username:" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="25" Margin="5"/>
+                    <TextBox x:Name="tb_uname" Margin="5,45,5,5"/>
+                    <Button x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,95,5,5" Click="btn_setun_Click"/>
+                </Grid>
+            </PivotItem>
+            <PivotItem x:Name="pvt_chat" Header="Chat">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled">
+                    <Grid>
+                        <WebView x:Name="wv_chat" Margin="5,5,0,125"/>
+                        <TextBox x:Name="tb_message" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Bottom" Margin="5,5,5,65" KeyDown="tb_message_KeyDown"/>
+                        <Button x:Name="btn_send" Content="Send Message" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="5" Click="btn_send_Click"/>
+                    </Grid>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="Settings">
+                <Grid>
+                    <!-- Auto scroll -->
+                    <ToggleSwitch x:Name="tbtn_autoscroll" VerticalAlignment="Top" Toggled="tbtn_autoscroll_Toggled" OnContent="Enabled" OffContent="Disabled" Margin="5,0,5,5">Enable AutoScroll</ToggleSwitch>
+                    
+                    <!-- Bericht met enter versturen -->
+                    <ToggleSwitch x:Name="tbtn_senderenter" VerticalAlignment="Top" OnContent="Enabled" OffContent="Disabled" Margin="5,65,5,5">Send with Enter</ToggleSwitch>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="About">
+                <Grid>
+                    <TextBlock Text="Created by: Bart Kessels &amp; Ties Baltissen" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" FontSize="18"/>
+                    <TextBlock Text="Website: www.bartkessels.net" Margin="5,30,5,5" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18"/>
+
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled" Margin="5,65,5,5">
+                        <Grid>
+                            <TextBlock TextWrapping="Wrap" FontSize="15" >
+                            	<Run Text="Why would i want to use this app?"/>
+                            	<LineBreak/>
+                            	<Run/>
+                            	<LineBreak/>
+                            	<Run Text="I don't know. I use to connect to other"/>
+                            	<LineBreak/>
+                            	<Run Text="Windows Phone users/enthusiasts. Since"/>
+                            	<LineBreak/>
+                            	<Run Text="this app is only available for Windows Phone"/>
+                            	<LineBreak/>
+                            	<Run Text="this chat won't be cluttered with Windows Phone"/>
+                            	<LineBreak/>
+                            	<Run Text="hating people."/>
+                            	<LineBreak/>
+                            	<Run/>
+                            	<LineBreak/>
+                            	<Run Text="What makes this app special?"/>
+                            	<LineBreak/>
+                            	<Run/>
+                            	<LineBreak/>
+                            	<Run Text="Well you can say what you want! And everyday"/>
+                            	<LineBreak/>
+                            	<Run Text="at midnight (CET) the database with messages "/>
+                            	<LineBreak/>
+                            	<Run Text="gets deleted! So everyday you can start off with"/>
+                            	<LineBreak/>
+                            	<Run Text="a fresh empty chat."/>
+                            	<LineBreak/>
+                            	<Run/>
+                            	<LineBreak/>
+                            	<Run Text="Why doesn't it save my username?"/>
+                            	<LineBreak/>
+                            	<Run/>
+                            	<LineBreak/>
+                            	<Run Text="I didn't want to make, yet another, app where"/>
+                            	<LineBreak/>
+                            	<Run Text="you'll need to sign up. If i made you create an account you'll had to remember another username/password combination (which i, personaly, hate)."/>
+                            	<LineBreak/>
+                            	<Run Text="and of course to keep your privacy."/>
+                            </TextBlock>
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>
