@@ -13,16 +13,23 @@
             <CommandBar.PrimaryCommands>
                 <AppBarButton x:Name="abtn_refresh" Icon="Refresh" Label="Refresh" Click="abtn_refresh_Click"/>
                 <AppBarButton x:Name="abtn_send" Icon="Send" Label="Send" Click="abtn_send_Click"/>
+                <AppBarButton x:Name="abtn_addroom" Icon="Add" Label="Add"/>
             </CommandBar.PrimaryCommands>
         </CommandBar>
     </Page.BottomAppBar>
 
     <Grid>
-        <Pivot x:Name="pvt" Title="ChatUp!">
+        <Pivot x:Name="pvt" Title="ChatUp!" PivotItemLoading="pvt_PivotItemLoading">
             <PivotItem x:Name="pvt_main" Header="Main">
                 <Grid>
                     <TextBlock Text="Username:" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="25" Margin="5"/>
-                    <ComboBox x:Name="cb_languages" VerticalAlignment="Top" Margin="5,87,5,0">
+                    <TextBox x:Name="tb_uname" Margin="5,45,5,5"/>
+                    <Button x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,223,5,0" Click="btn_setun_Click"/>
+                </Grid>
+            </PivotItem>
+            <PivotItem x:Name="pvt_rooms" Header="Rooms">
+                <Grid>
+                    <ComboBox x:Name="cb_languages" PlaceholderText="Language selection..." VerticalAlignment="Top" Margin="0,22,10,0">
                         <ComboBoxItem Content="Dutch"/>
                         <ComboBoxItem Content="English"/>
                         <ComboBoxItem Content="French"/>
@@ -30,8 +37,10 @@
                         <ComboBoxItem Content="Italian"/>
                         <ComboBoxItem Content="Indian"/>
                     </ComboBox>
-                    <TextBox x:Name="tb_uname" Margin="5,45,5,5"/>
-                    <Button x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,223,5,0" Click="btn_setun_Click"/>
+                    <ListView Margin="0,93,10,10">
+                        <ListViewItem Content="Testroom1"/>
+                        <ListViewItem Content="Testroom2"/>
+                    </ListView>
                 </Grid>
             </PivotItem>
             <PivotItem x:Name="pvt_chat" Header="Chat">

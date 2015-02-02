@@ -30,7 +30,7 @@ namespace wp_ChatUp_
         public MainPage()
         {
             this.InitializeComponent();
-
+            abtn_addroom.Visibility = Visibility.Collapsed;
             this.NavigationCacheMode = NavigationCacheMode.Required;
             sld_fontsize.Value = 1;
             // Chat pvt disablen
@@ -53,7 +53,6 @@ namespace wp_ChatUp_
             {
                 // UN opslaan
                 un = tb_uname.Text;
-                
                 // Doorgaan
                 pvt_chat.IsEnabled = true;
                 tb_uname.IsReadOnly = true;
@@ -206,6 +205,18 @@ namespace wp_ChatUp_
             if (e.NewValue == 3)
             {
 
+            }
+        }
+
+        private void pvt_PivotItemLoading(Pivot sender, PivotItemEventArgs args)
+        {
+            if (args.Item == pvt_rooms)
+            {
+                abtn_addroom.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                abtn_addroom.Visibility = Visibility.Collapsed;
             }
         }
     }

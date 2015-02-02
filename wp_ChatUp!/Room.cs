@@ -19,5 +19,10 @@ namespace wp_ChatUp_
             this.Roomname = roomname;
             this.Language = language;
         }
+
+        public void JoinRoom(int roomID)
+        {
+            this.RoomID = roomID;
+        }
     }
 }
