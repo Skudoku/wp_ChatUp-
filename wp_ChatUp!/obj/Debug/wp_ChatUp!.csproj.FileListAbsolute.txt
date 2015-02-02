@@ -120,3 +120,11 @@ C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\qualifiers.txt
 C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\ProjectArchitectures.txt
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\layout.resfiles
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\layout.resfiles.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\Resources.resfiles
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\Resources.resfiles.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\pri.resfiles
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\pri.resfiles.intermediate
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\priconfig.xml
+C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\Debug\MySql.Data.RT\priconfig.xml.intermediate

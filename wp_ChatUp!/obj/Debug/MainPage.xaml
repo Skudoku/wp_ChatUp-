@@ -23,14 +23,14 @@
                 <Grid>
                     <TextBlock Text="Username:" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="25" Margin="5"/>
                     <TextBox x:Name="tb_uname" Margin="5,45,5,5"/>
-                    <Button x:ConnectionId='5' x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,95,5,5"                        />
+                    <Button x:ConnectionId='6' x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,95,5,5"                        />
                 </Grid>
             </PivotItem>
             <PivotItem x:Name="pvt_chat" Header="Chat">
                 <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled">
                     <Grid>
                         <WebView x:Name="wv_chat" Margin="5,5,0,54"/>
-                        <TextBox x:ConnectionId='4' x:Name="tb_message" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Bottom" Margin="5,0,0,10"                             />
+                        <TextBox x:ConnectionId='5' x:Name="tb_message" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Bottom" Margin="5,0,0,10"                             />
                     </Grid>
                 </ScrollViewer>
             </PivotItem>
@@ -38,9 +38,10 @@
                 <Grid>
                     <!-- Auto scroll -->
                     <ToggleSwitch x:ConnectionId='3' x:Name="tbtn_autoscroll" VerticalAlignment="Top"                                   OnContent="Enabled" OffContent="Disabled" Margin="5,0,5,5">Enable AutoScroll</ToggleSwitch>
-                    
+
                     <!-- Bericht met enter versturen -->
                     <ToggleSwitch x:Name="tbtn_senderenter" VerticalAlignment="Top" OnContent="Enabled" OffContent="Disabled" Margin="5,65,5,5">Send with Enter</ToggleSwitch>
+                    <Slider x:ConnectionId='4' x:Name="sld_fontsize" Header="Fontsize" VerticalAlignment="Top" Margin="5,135,10,0"                                          Maximum="3" Minimum="1" Value="1" />
                 </Grid>
             </PivotItem>
             <PivotItem Header="About">

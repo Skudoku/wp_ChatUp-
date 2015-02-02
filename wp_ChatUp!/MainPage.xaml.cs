@@ -16,6 +16,7 @@ using System.Text;
 using MySql.Data.MySqlClient;
 using System.Runtime.InteropServices;
 using Windows.Storage;
+using Windows.UI.Popups;
 
 namespace wp_ChatUp_
 {
@@ -25,13 +26,14 @@ namespace wp_ChatUp_
         private string autoscroll;
         private bool sendenter = false;
         WebView wv = new WebView();
+        MessageDialog messageDialog;
 
         public MainPage()
         {
             this.InitializeComponent();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
-
+            sld_fontsize.Value = 1;
             // Chat pvt disablen
             pvt_chat.IsEnabled = false;
             btn_setun.IsEnabled = true;
@@ -187,6 +189,25 @@ namespace wp_ChatUp_
         {
             // Bericht versturen
             sendmsg();
+        }
+
+        private void sld_fontsize_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            //small 12
+            //medium 18
+            //large 24
+            if (e.NewValue == 1)
+            {
+                System.Diagnostics.Debug.WriteLine("Value 1");
+            }
+            if (e.NewValue == 2)
+            {
+
+            }
+            if (e.NewValue == 3)
+            {
+
+            }
         }
     }
 }

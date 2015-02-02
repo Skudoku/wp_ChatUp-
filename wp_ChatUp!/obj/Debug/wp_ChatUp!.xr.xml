@@ -55,6 +55,15 @@
       <RootProperty Name="Header" />
       <RootEvent Name="Toggled" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Slider">
+      <RootProperty Name="Header" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Maximum" />
+      <RootProperty Name="Minimum" />
+      <RootProperty Name="Value" />
+      <RootEvent Name="ValueChanged" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.WebView">
       <RootProperty Name="Margin" />
     </RootType>

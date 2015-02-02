@@ -38,9 +38,10 @@
                 <Grid>
                     <!-- Auto scroll -->
                     <ToggleSwitch x:Name="tbtn_autoscroll" VerticalAlignment="Top" Toggled="tbtn_autoscroll_Toggled" OnContent="Enabled" OffContent="Disabled" Margin="5,0,5,5">Enable AutoScroll</ToggleSwitch>
-                    
+
                     <!-- Bericht met enter versturen -->
                     <ToggleSwitch x:Name="tbtn_senderenter" VerticalAlignment="Top" OnContent="Enabled" OffContent="Disabled" Margin="5,65,5,5">Send with Enter</ToggleSwitch>
+                    <Slider x:Name="sld_fontsize" Header="Fontsize" VerticalAlignment="Top" Margin="5,135,10,0" ValueChanged="sld_fontsize_ValueChanged" Maximum="3" Minimum="1" Value="1" />
                 </Grid>
             </PivotItem>
             <PivotItem Header="About">
