@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Web.Http;
 using System.Net;
-using System.IO;
+using Windows.UI.Xaml.Controls;
 
 namespace wp_ChatUp_
 {
@@ -26,13 +27,8 @@ namespace wp_ChatUp_
             this.MessageToSend = messagetosend;
             this.Room = room;
 
-            string url = "http://wwww.blah.com/page.php";
-            string data = "wooooo! test!!";
-
-            WebClient client = new WebClient();
-            {
-                client.UploadString(url, data);
-            }
+            WebView wv = new WebView();
+            wv.Navigate(new Uri("http://chatup.nl/test/message.php?message=" + WebUtility.UrlEncode(messagetosend) + "&uname=" + WebUtility.UrlEncode(username)));
         }
     }
 }

@@ -39,7 +39,6 @@ namespace wp_ChatUp_
             sld_fontsize.Value = 1;
             // Chat pvt disablen
             pvt_chat.IsEnabled = false;
-            btn_setun.IsEnabled = true;
 
             // Instellingen laden
             getsettings();
@@ -62,7 +61,6 @@ namespace wp_ChatUp_
                 // Doorgaan
                 pvt_chat.IsEnabled = true;
                 tb_uname.IsReadOnly = true;
-                btn_setun.IsEnabled = false;
 
                 // Naar andere pivot sliden
                 pvt.SelectedItem = pvt_chat;
