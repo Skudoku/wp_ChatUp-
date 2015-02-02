@@ -24,12 +24,12 @@
                 <Grid>
                     <TextBlock Text="Username:" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="25" Margin="5"/>
                     <TextBox x:Name="tb_uname" Margin="5,45,5,5"/>
-                    <Button x:ConnectionId='7' x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,223,5,0"                        />
+                    <Button x:ConnectionId='8' x:Name="btn_setun" Content="Next ->" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="5,223,5,0"                        />
                 </Grid>
             </PivotItem>
             <PivotItem x:Name="pvt_rooms" Header="Rooms">
                 <Grid>
-                    <ComboBox x:Name="cb_languages" PlaceholderText="Language selection..." VerticalAlignment="Top" Margin="0,22,10,0">
+                    <ComboBox x:ConnectionId='7' x:Name="cb_languages" PlaceholderText="Language selection..." VerticalAlignment="Top" Margin="0,22,10,0"                                                 >
                         <ComboBoxItem Content="Dutch"/>
                         <ComboBoxItem Content="English"/>
                         <ComboBoxItem Content="French"/>
@@ -37,7 +37,7 @@
                         <ComboBoxItem Content="Italian"/>
                         <ComboBoxItem Content="Indian"/>
                     </ComboBox>
-                    <ListView Margin="0,93,10,10">
+                    <ListView x:Name="lv_rooms" Margin="0,93,10,10">
                         <ListViewItem Content="Testroom1"/>
                         <ListViewItem Content="Testroom2"/>
                     </ListView>

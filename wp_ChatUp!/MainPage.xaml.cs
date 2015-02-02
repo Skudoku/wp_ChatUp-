@@ -31,6 +31,7 @@ namespace wp_ChatUp_
         {
             this.InitializeComponent();
             abtn_addroom.Visibility = Visibility.Collapsed;
+            lv_rooms.Visibility = Visibility.Collapsed;
             this.NavigationCacheMode = NavigationCacheMode.Required;
             sld_fontsize.Value = 1;
             // Chat pvt disablen
@@ -218,6 +219,11 @@ namespace wp_ChatUp_
             {
                 abtn_addroom.Visibility = Visibility.Collapsed;
             }
+        }
+
+        private void cb_languages_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            lv_rooms.Visibility = Visibility.Visible;
         }
     }
 }
