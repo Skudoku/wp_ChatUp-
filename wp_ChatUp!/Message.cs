@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net;
+using System.IO;
 
 namespace wp_ChatUp_
 {
@@ -23,6 +25,14 @@ namespace wp_ChatUp_
             this.Username = username;
             this.MessageToSend = messagetosend;
             this.Room = room;
+
+            string url = "http://wwww.blah.com/page.php";
+            string data = "wooooo! test!!";
+
+            WebClient client = new WebClient();
+            {
+                client.UploadString(url, data);
+            }
         }
     }
 }

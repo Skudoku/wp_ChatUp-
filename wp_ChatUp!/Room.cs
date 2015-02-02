@@ -24,5 +24,10 @@ namespace wp_ChatUp_
         {
             this.RoomID = roomID;
         }
+
+        public int GetRoomID(Room room)
+        {
+            return room.RoomID;
+        }
     }
 }

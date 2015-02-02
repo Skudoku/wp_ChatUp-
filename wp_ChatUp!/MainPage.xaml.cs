@@ -26,6 +26,9 @@ namespace wp_ChatUp_
         private string autoscroll;
         private bool sendenter = false;
         WebView wv = new WebView();
+        Message message = new Message();
+        Room testroom1;
+        Room testroom2;
 
         public MainPage()
         {
@@ -40,6 +43,8 @@ namespace wp_ChatUp_
 
             // Instellingen laden
             getsettings();
+            testroom1 = new Room("Testroom1", cb_languages.SelectedItem.ToString());
+            testroom2 = new Room("Testroom2", cb_languages.SelectedItem.ToString());
         }
         
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -70,28 +75,28 @@ namespace wp_ChatUp_
             if (e.Key == Windows.System.VirtualKey.Enter && sendenter == true)
             {
                 // Bericht versturen
-                sendmsg();
+                //sendmsg();
             }
         }
 
-        private void sendmsg()
-        {
-            // Kijken of de TB niet leeg is
-            if(tb_message.Text != "")
-            {
-                // Bericht stringen
-                string message = tb_message.Text;
-
-                // UN en bericht doorsturen naar db knal pagina
-                wv.Navigate(new Uri("http://apps.bartkessels.net/wp_chatup/send.php?uname=" + un + "&message=" + message));
-
-                // Keyboard verbergen
-                wv_chat.Focus(FocusState.Pointer);
-
-                // TB legen
-                tb_message.Text = "";
-            }
-        }
+        //private void sendmsg()
+        //{
+        //    // Kijken of de TB niet leeg is
+        //    if(tb_message.Text != "")
+        //    {
+        //        // Bericht stringen
+        //        string message = tb_message.Text;
+        //
+        //        // UN en bericht doorsturen naar db knal pagina
+        //        wv.Navigate(new Uri("http://apps.bartkessels.net/wp_chatup/send.php?uname=" + un + "&message=" + message));
+        //
+        //        // Keyboard verbergen
+        //        wv_chat.Focus(FocusState.Pointer);
+        //
+        //        // TB legen
+        //        tb_message.Text = "";
+        //    }
+        //}
 
         private void abtn_refresh_Click(object sender, RoutedEventArgs e)
         {
@@ -187,7 +192,8 @@ namespace wp_ChatUp_
         private void abtn_send_Click(object sender, RoutedEventArgs e)
         {
             // Bericht versturen
-            sendmsg();
+            //sendmsg();
+            message.Send(un, tb_message.Text, testroom1);
         }
 
         private void sld_fontsize_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
