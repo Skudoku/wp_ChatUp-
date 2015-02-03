@@ -33,6 +33,7 @@ namespace wp_ChatUp_
         public MainPage()
         {
             this.InitializeComponent();
+            PHPtest.GetMessage();
             abtn_addroom.Visibility = Visibility.Collapsed;
             lv_rooms.Visibility = Visibility.Collapsed;
             this.NavigationCacheMode = NavigationCacheMode.Required;
@@ -73,33 +74,17 @@ namespace wp_ChatUp_
             if (e.Key == Windows.System.VirtualKey.Enter && sendenter == true)
             {
                 // Bericht versturen
-                //sendmsg();
+                message.Send(un, tb_message.Text);
+                tb_message.Text = "";
+                pvt.Focus(FocusState.Programmatic);
             }
         }
 
-        //private void sendmsg()
-        //{
-        //    // Kijken of de TB niet leeg is
-        //    if(tb_message.Text != "")
-        //    {
-        //        // Bericht stringen
-        //        string message = tb_message.Text;
-        //
-        //        // UN en bericht doorsturen naar db knal pagina
-        //        wv.Navigate(new Uri("http://apps.bartkessels.net/wp_chatup/send.php?uname=" + un + "&message=" + message));
-        //
-        //        // Keyboard verbergen
-        //        wv_chat.Focus(FocusState.Pointer);
-        //
-        //        // TB legen
-        //        tb_message.Text = "";
-        //    }
-        //}
 
         private void abtn_refresh_Click(object sender, RoutedEventArgs e)
         {
             // Webview refreshen
-            wv_chat.Refresh();
+            //wv_chat.Refresh();
         }
 
         private void getsettings()
@@ -163,8 +148,8 @@ namespace wp_ChatUp_
             }
             
             // Webpagina openen
-            wv_chat.Navigate(new Uri("http://apps.bartkessels.net/wp_chatup/chat.html?as=" + autoscroll));
-            System.Diagnostics.Debug.WriteLine(wv_chat.Source.ToString());
+            //wv_chat.Navigate(new Uri("http://www.google.nl"));
+            //System.Diagnostics.Debug.WriteLine(wv_chat.Source.ToString());
         }
 
         private void tbtn_autoscroll_Toggled(object sender, RoutedEventArgs e)
@@ -192,6 +177,8 @@ namespace wp_ChatUp_
             // Bericht versturen
             //sendmsg();
             message.Send(un, tb_message.Text);
+            tb_message.Text = "";
+            pvt.Focus(FocusState.Programmatic);
         }
 
         private void sld_fontsize_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
@@ -199,18 +186,18 @@ namespace wp_ChatUp_
             //small 12
             //medium 18
             //large 24
-            if (e.NewValue == 1)
-            {
-                System.Diagnostics.Debug.WriteLine("Value 1");
-            }
-            if (e.NewValue == 2)
-            {
-
-            }
-            if (e.NewValue == 3)
-            {
-
-            }
+            //if (e.NewValue == 1)
+            //{
+            //    
+            //}
+            //if (e.NewValue == 2)
+            //{
+            //
+            //}
+            //if (e.NewValue == 3)
+            //{
+            //
+            //}
         }
 
         private void pvt_PivotItemLoading(Pivot sender, PivotItemEventArgs args)

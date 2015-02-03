@@ -12,6 +12,7 @@ namespace wp_ChatUp_
         public string Roomname { get; set; }
         public int Usercount { get; set; }
         public string Language { get; set; }
+        public int LanguageID { get; set; }
 
 
         public Room(string roomname, string language)
@@ -28,6 +29,13 @@ namespace wp_ChatUp_
         public int GetRoomID(Room room)
         {
             return room.RoomID;
+        }
+
+        public List<Room> GetRooms(string language)
+        {
+            List<Room> roomsList = new List<Room>();
+
+            return roomsList;
         }
     }
 }

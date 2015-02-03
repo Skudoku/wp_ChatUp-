@@ -22,14 +22,6 @@ C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\wp_ChatUp!.ex
 C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\wp_ChatUp!.pdb
 C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\en-US\MySql.Data.RT.Properties.Resources.resw
 C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\wp_ChatUp!.csproj.GenerateResource.Cache
-C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\layout.resfiles
-C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\layout.resfiles.intermediate
-C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\Resources.resfiles
-C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\Resources.resfiles.intermediate
-C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\pri.resfiles
-C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\pri.resfiles.intermediate
-C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\priconfig.xml
-C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\priconfig.xml.intermediate
 C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT.pri
 C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\MySql.Data.RT\qualifiers.txt
 C:\Users\Ties\Desktop\SMW21\AO\wp_ChatUp!\wp_ChatUp!\obj\x86\Debug\priconfig.xml
