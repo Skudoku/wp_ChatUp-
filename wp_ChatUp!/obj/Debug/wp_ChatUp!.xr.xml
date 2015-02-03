@@ -65,8 +65,9 @@
       <RootProperty Name="Value" />
       <RootEvent Name="ValueChanged" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.WebView">
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Margin" />
+      <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="TextWrapping" />
@@ -81,10 +82,6 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Items" />
       <RootEvent Name="SelectionChanged" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />

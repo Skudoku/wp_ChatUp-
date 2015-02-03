@@ -51,7 +51,7 @@
             <PivotItem x:Name="pvt_chat" Header="Chat">
                 <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled">
                     <Grid>
-                        <WebView x:Name="wv_chat" Margin="5,5,0,54"/>
+                        <ListView Margin="0,0,0,54" />
                         <TextBox x:Name="tb_message" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Bottom" Margin="5,0,0,10" KeyDown="tb_message_KeyDown"/>
                     </Grid>
                 </ScrollViewer>
