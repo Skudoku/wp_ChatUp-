@@ -19,7 +19,7 @@
                 <AppBarButton x:Name="abtn_send" Icon="Send" Label="Send" Click="abtn_send_Click"/>
                 
                 <!-- Room pivot -->
-                <AppBarButton x:Name="abtn_addroom" Icon="Add" Label="Add"/>
+                <AppBarButton x:Name="abtn_addroom" Icon="Add" Label="Add" Click="abtn_addroom_Click"/>
             </CommandBar.PrimaryCommands>
         </CommandBar>
     </Page.BottomAppBar>
@@ -34,18 +34,20 @@
             </PivotItem>
             <PivotItem x:Name="pvt_rooms" Header="Rooms">
                 <Grid>
-                    <ComboBox x:Name="cb_languages" PlaceholderText="Language selection..." VerticalAlignment="Top" Margin="0,22,10,0" SelectionChanged="cb_languages_SelectionChanged">
-                        <ComboBoxItem Content="Dutch"/>
-                        <ComboBoxItem Content="English"/>
-                        <ComboBoxItem Content="French"/>
-                        <ComboBoxItem Content="Spanish"/>
-                        <ComboBoxItem Content="Italian"/>
-                        <ComboBoxItem Content="Indian"/>
-                    </ComboBox>
-                    <ListView x:Name="lv_rooms" Margin="0,93,10,10">
-                        <ListViewItem Content="Testroom1"/>
-                        <ListViewItem Content="Testroom2"/>
-                    </ListView>
+                    <Grid x:Name="grd_rooms_default">
+                        <ComboBox x:Name="cb_languages" PlaceholderText="Language selection..." VerticalAlignment="Top" Margin="0,22,10,0" SelectionChanged="cb_languages_SelectionChanged">
+                            <ComboBoxItem Content="Dutch"/>
+                            <ComboBoxItem Content="English"/>
+                            <ComboBoxItem Content="French"/>
+                            <ComboBoxItem Content="Spanish"/>
+                        </ComboBox>
+                        <ListView x:Name="lv_rooms" Margin="0,93,10,10" FontSize="16"/>
+                    </Grid>
+                    <Grid x:Name="grd_rooms_add" Visibility="Collapsed">
+                        <TextBox x:Name="tb_addroom" />
+                        <Button x:Name="btn_addroom" Content="Create Room" Margin="110,72,0,316" Click="btn_addroom_Click" />
+                        <TextBlock x:Name="lb_hid" Visibility="Collapsed" />
+                    </Grid>
                 </Grid>
             </PivotItem>
             <PivotItem x:Name="pvt_chat" Header="Chat">

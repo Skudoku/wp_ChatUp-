@@ -15,8 +15,9 @@ namespace wp_ChatUp_
     {
 
         public string Username { get; private set; }
-        public string MessageToSend { get; private set; }
+        public string MessageText { get; private set; }
         public int MessageID { get; set; }
+        public int RoomID { get; set; }
 
         public Room Room { get; set; }
 
@@ -25,22 +26,21 @@ namespace wp_ChatUp_
 
         }
 
-        public void Send(string username, string messagetosend)
+        public Message(string messagetext, string username, int roomid)
+        {
+            this.MessageText = messagetext;
+            this.Username = username;
+            this.RoomID = roomid;
+        }
+
+        public void Send(string username, string messagetext)
         {
             this.Username = username;
-            this.MessageToSend = messagetosend;
+            this.MessageText = messagetext;
             
             //this.Room = room;
             WebView wv = new WebView();
-            try
-            {
-                wv.Navigate(new Uri("http://chatup.nl:800/test/message.php?message=" + WebUtility.UrlEncode(messagetosend) + "&uname=" + WebUtility.UrlEncode(username)));
-            }
-            catch (Exception ex)
-            {
-                System.Diagnostics.Debug.WriteLine(ex.Message);
-            }
-            
+            wv.Navigate(new Uri("http://chatup.nl:800/test/message.php?message=" + WebUtility.UrlEncode(messagetext) + "&uname=" + WebUtility.UrlEncode(username)));            
         }
 
         public List<Message> GetMessages()
@@ -60,20 +60,26 @@ namespace wp_ChatUp_
         //    return newMessage;
         //}
 
-        public static void GetMessage(int MessageID)
+        public static string GetMessage(int MessageID)
         {
+            Message messageByID;
             HttpWebRequest messageText = (HttpWebRequest)HttpWebRequest.Create(new Uri("http://www.chatup.nl:800/test/getmessage.php?id=" + Convert.ToString(MessageID)));
             messageText.BeginGetResponse(ShowText, messageText);
             HttpWebRequest userName = (HttpWebRequest)HttpWebRequest.Create(new Uri("http://www.chatup.nl:800/test/getusername.php?id=" + Convert.ToString(MessageID)));
             userName.BeginGetResponse(ShowText, userName);
-            HttpWebRequest roomName = (HttpWebRequest)HttpWebRequest.Create(new Uri("http://www.chatup.nl:800/test/getroomname.php?id=" + Convert.ToString(MessageID)));
-            roomName.BeginGetResponse(ShowText, roomName);
+            HttpWebRequest roomID = (HttpWebRequest)HttpWebRequest.Create(new Uri("http://www.chatup.nl:800/test/getroomid.php?id=" + Convert.ToString(MessageID)));
+            roomID.BeginGetResponse(ShowText, roomID);
 
             string messagetext = Convert.ToString(messageText);
-
+            string username = Convert.ToString(userName);
+            //int roomid = Convert.ToInt32(roomID);
+            //messageByID = new Message(messagetext, username, roomid);
+            //return messageByID;
+            return messagetext;
+            
         }
 
-        private static void ShowText(IAsyncResult result)
+        public static void ShowText(IAsyncResult result)
         {
             HttpWebRequest request = (HttpWebRequest)result.AsyncState;
             HttpWebResponse response = (HttpWebResponse)request.EndGetResponse(result);

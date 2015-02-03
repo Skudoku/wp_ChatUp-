@@ -19,13 +19,13 @@
                 <AppBarButton x:ConnectionId='3' x:Name="abtn_send" Icon="Send" Label="Send"                        />
                 
                 <!-- Room pivot -->
-                <AppBarButton x:Name="abtn_addroom" Icon="Add" Label="Add"/>
+                <AppBarButton x:ConnectionId='4' x:Name="abtn_addroom" Icon="Add" Label="Add"                           />
             </CommandBar.PrimaryCommands>
         </CommandBar>
     </Page.BottomAppBar>
 
     <Grid>
-        <Pivot x:ConnectionId='4' x:Name="pvt" Title="ChatUp!"                                        >
+        <Pivot x:ConnectionId='5' x:Name="pvt" Title="ChatUp!"                                        >
             <PivotItem x:Name="pvt_main" Header="Main">
                 <Grid>
                     <TextBlock Text="Username:" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="25" Margin="5"/>
@@ -34,36 +34,38 @@
             </PivotItem>
             <PivotItem x:Name="pvt_rooms" Header="Rooms">
                 <Grid>
-                    <ComboBox x:ConnectionId='8' x:Name="cb_languages" PlaceholderText="Language selection..." VerticalAlignment="Top" Margin="0,22,10,0"                                                 >
-                        <ComboBoxItem Content="Dutch"/>
-                        <ComboBoxItem Content="English"/>
-                        <ComboBoxItem Content="French"/>
-                        <ComboBoxItem Content="Spanish"/>
-                        <ComboBoxItem Content="Italian"/>
-                        <ComboBoxItem Content="Indian"/>
-                    </ComboBox>
-                    <ListView x:Name="lv_rooms" Margin="0,93,10,10">
-                        <ListViewItem Content="Testroom1"/>
-                        <ListViewItem Content="Testroom2"/>
-                    </ListView>
+                    <Grid x:Name="grd_rooms_default">
+                        <ComboBox x:ConnectionId='10' x:Name="cb_languages" PlaceholderText="Language selection..." VerticalAlignment="Top" Margin="0,22,10,0"                                                 >
+                            <ComboBoxItem Content="Dutch"/>
+                            <ComboBoxItem Content="English"/>
+                            <ComboBoxItem Content="French"/>
+                            <ComboBoxItem Content="Spanish"/>
+                        </ComboBox>
+                        <ListView x:Name="lv_rooms" Margin="0,93,10,10" FontSize="16"/>
+                    </Grid>
+                    <Grid x:Name="grd_rooms_add" Visibility="Collapsed">
+                        <TextBox x:Name="tb_addroom" />
+                        <Button x:ConnectionId='9' x:Name="btn_addroom" Content="Create Room" Margin="110,72,0,316"                           />
+                        <TextBlock x:Name="lb_hid" Visibility="Collapsed" />
+                    </Grid>
                 </Grid>
             </PivotItem>
             <PivotItem x:Name="pvt_chat" Header="Chat">
                 <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalScrollMode="Enabled" HorizontalScrollMode="Disabled">
                     <Grid>
                         <ListView Margin="0,0,0,54" />
-                        <TextBox x:ConnectionId='7' x:Name="tb_message" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Bottom" Margin="5,0,0,10"                             />
+                        <TextBox x:ConnectionId='8' x:Name="tb_message" TextWrapping="Wrap" AcceptsReturn="True" VerticalAlignment="Bottom" Margin="5,0,0,10"                             />
                     </Grid>
                 </ScrollViewer>
             </PivotItem>
             <PivotItem Header="Settings">
                 <Grid>
                     <!-- Auto scroll -->
-                    <ToggleSwitch x:ConnectionId='5' x:Name="tbtn_autoscroll" VerticalAlignment="Top"                                   OnContent="Enabled" OffContent="Disabled" Margin="5,0,5,5">Enable AutoScroll</ToggleSwitch>
+                    <ToggleSwitch x:ConnectionId='6' x:Name="tbtn_autoscroll" VerticalAlignment="Top"                                   OnContent="Enabled" OffContent="Disabled" Margin="5,0,5,5">Enable AutoScroll</ToggleSwitch>
 
                     <!-- Bericht met enter versturen -->
                     <ToggleSwitch x:Name="tbtn_senderenter" VerticalAlignment="Top" OnContent="Enabled" OffContent="Disabled" Margin="5,65,5,5">Send with Enter</ToggleSwitch>
-                    <Slider x:ConnectionId='6' x:Name="sld_fontsize" Header="Fontsize" VerticalAlignment="Top" Margin="5,135,10,0"                                          Maximum="3" Minimum="1" Value="2" />
+                    <Slider x:ConnectionId='7' x:Name="sld_fontsize" Header="Fontsize" VerticalAlignment="Top" Margin="5,135,10,0"                                          Maximum="3" Minimum="1" Value="2" />
                 </Grid>
             </PivotItem>
             <PivotItem Header="About">

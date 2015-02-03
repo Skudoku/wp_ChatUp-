@@ -17,6 +17,7 @@ using MySql.Data.MySqlClient;
 using System.Runtime.InteropServices;
 using Windows.Storage;
 using Windows.UI.Popups;
+using System.Net;
 
 namespace wp_ChatUp_
 {
@@ -27,29 +28,27 @@ namespace wp_ChatUp_
         private bool sendenter = false;
         WebView wv = new WebView();
         Message message = new Message();
-        Room testroom1;
-        Room testroom2;
+        Language language = new Language();
 
         public MainPage()
         {
             this.InitializeComponent();
-            PHPtest.GetMessage();
             abtn_addroom.Visibility = Visibility.Collapsed;
+            MessageDialog msg = new MessageDialog(Message.GetMessage(1));
             lv_rooms.Visibility = Visibility.Collapsed;
             this.NavigationCacheMode = NavigationCacheMode.Required;
             sld_fontsize.Value = 1;
+            lv_rooms.ItemsSource = Room.GetRooms();
             // Chat pvt disablen
             pvt_chat.IsEnabled = false;
 
             // Instellingen laden
             getsettings();
-            //testroom1 = new Room("Testroom1", cb_languages.SelectedItem.ToString());
-            //testroom2 = new Room("Testroom2", cb_languages.SelectedItem.ToString());
         }
         
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            
+            cb_languages.ItemsSource = language.GetLanguages();
         }
 
         private void btn_setun_Click(object sender, RoutedEventArgs e)
@@ -215,6 +214,20 @@ namespace wp_ChatUp_
         private void cb_languages_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             lv_rooms.Visibility = Visibility.Visible;
+        }
+
+        private void abtn_addroom_Click(object sender, RoutedEventArgs e)
+        {
+            grd_rooms_default.Visibility = Visibility.Collapsed;
+            grd_rooms_add.Visibility = Visibility.Visible;
+        }
+
+        private  void btn_addroom_Click(object sender, RoutedEventArgs e)
+        {
+            Room.AddRoom(tb_addroom.Text);
+            lv_rooms.ItemsSource = Room.GetRooms();
+            grd_rooms_add.Visibility = Visibility.Collapsed;
+            grd_rooms_default.Visibility = Visibility.Visible;
         }
     }
 }
